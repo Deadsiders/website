@@ -1,0 +1,20 @@
+.slick-dots li.slick-active button:before{
+    opacity: 1;
+    background: #fcff00;
+}
+
+.slick-dots li button:before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #333;
+    opacity: 1;
+    border-radius: 50%;
+    border: 1px solid #4fa50c;
+    top: 50%;
+    left: 50%;
+    margin: -5px 0 0 -5px;
+    -webkit - transition: background .3s;
+    -o - transition: background .3s;
+    transition: background .3s;
+}
