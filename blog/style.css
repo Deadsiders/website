@@ -47,6 +47,10 @@ body{
 
 .art{
 	margin: 5% 20% 0 20%;
+	border-bottom: 1px solid yellow;
+	padding-bottom: 10px;
+	font-size: 18px;
+	color: yellow;
 }
 
 .art:last-child{
@@ -54,21 +58,6 @@ body{
 }
 
 .title{
-	width: 100%;
-	min-height: 300px;
-	max-height: 300px;
-	text-align: center;
-	padding-top: 22%;
-	font-size: 40px;
-}
-
-.art:hover{
-	opacity: 0.5;
-	transition: 1s;
-}
-
-.title:hover{
 	color: white;
-	opacity: 1;
-	transition: 1s;
+	font-size: 25px;
 }
